@@ -17,7 +17,7 @@ i.e.:
      |
      |-- document.tex           <---- Document file that calls \bibliographystyle{}
      |
-     |-- customapalike.bst      <---- Modified file from this repository
+     |-- apalike-smj.bst        <---- Modified file from this repository
       
 In your `.tex` file, you should then have something that resembles the following:
 
@@ -28,9 +28,9 @@ In your `.tex` file, you should then have something that resembles the following
 \begin{document}
 ...document body...
 
-\bibliographystyle{customapalike}
+\bibliographystyle{apalike-smj}
 \bibliography{/path/to/mybibfile.bib}
 \end{document}
 ```
 
-Set the `\bibliographystyle{customapalike}` using the name of the downloaded `.bst` file. If it is in the same directory as the main `.tex` file, you shouldnt need to specify the extension or the full filepath.
+Set the `\bibliographystyle{apalike-smj}` using the name of the downloaded `.bst` file. If it is in the same directory as the main `.tex` file, you shouldnt need to specify the extension or the full filepath.
