@@ -1,4 +1,4 @@
-# Italicise_apalike_bst
+# apalike-smj
 A modified `apalike.bst` LaTeX bibliography style file for submissions to Strategic Management Journal.
 
 Changes from original apalike style:
