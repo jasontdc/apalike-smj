@@ -1,6 +1,12 @@
 # Italicise_apalike_bst
-A modified `apalike.bst` LaTeX bibliography style file to include italicised 'et al.'s'
+A modified `apalike.bst` LaTeX bibliography style file for submissions to Strategic Management Journal.
 
+Changes from original apalike style:
+
+- Includes italicised "et al.'s".
+- Excludes parentheses around publication date.
+
+Thanks to [@jrjhealey]( https://github.com/jrjhealey ) for his [Italicise_apalike_bst]( https://github.com/jrjhealey/Italicise_apalike_bst ) on which this is based.
 
 ### 'Installing'
 
@@ -28,7 +34,3 @@ In your `.tex` file, you should then have something that resembles the following
 ```
 
 Set the `\bibliographystyle{customapalike}` using the name of the downloaded `.bst` file. If it is in the same directory as the main `.tex` file, you shouldnt need to specify the extension or the full filepath.
-
-It should yeild the following (remember you will need to do a 'full TeX compilation cycle'; TeX -> BibTeX -> TeX -> TeX)
-
-<a href="https://ibb.co/jeBfip"><img src="https://preview.ibb.co/njNmOp/Screen_Shot_2018_10_10_at_11_21_58.png" alt="Screen Shot 2018 10 10 at 11 21 58" border="0" /></a>
